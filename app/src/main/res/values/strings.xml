@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">KrishokBondhu</string>
+    <string name="login1">আপনার অ্যাকাউন্টে \nলগ ইন করুন</string>
+    <string name="login2">ফোন নম্বর </string>
+    <string name="login3">পিন নম্বর </string>
+    <string name="login4">লগ ইন</string>
+    <string name="login5">আপনি এখানে নতুন?</string>
+    <string name="reg1">অ্যাকাউন্ট নিবন্ধন করুন</string>
+    <string name="reg2">নিবন্ধন</string>
+    <string name="reg3">লগইন করতে চান ?</string>
+    <string name="hm1">জমির তালিকা </string>
+    <string name="hm2">পণ্য পরিসেবা</string>
+    <string name="hm3">বার্তা</string>
+    <string name="hm4">সেবা ইতিহাস</string>
+    <string name="hm5">গুরুত্বপূর্ণ তথ্য</string>
+    <string name="hm6">জরুরি কল</string>
+    <string name="hm7">কল ৯৯৯</string>
+    <string name="hm8">বিশেষ বুলেটিন</string>
+    <string name="hm9">আবহাওয়া</string>
+    <string name="p1">লগ আউট</string>
+    <string name="p2">আপনার নাম</string>
+    <string name="p3">আপনার ব্যক্তিগত তথ্য</string>
+    <string name="p4">লগ আউট</string>
+    <string name="p5">আপডেট করুন</string>
+    <string name="p6">পরিবর্তন সম্পন্ন হয়েছে</string>
+    <string name="n1">আপনার নোটিফিকেশন গুলো</string>
+    <string name="h1">আপনার সেবা ইতিহাস :</string>
+    <string name="f1">আপনার জমি সমূহ :</string>
+    <string name="f2">জমি যোগ করুন </string>
+    <string name="w1">শহরের নাম(ইংরেজিতে)</string>
+    <string name="w2">দেশের কোড(ঐচ্ছিক)</string>
+    <string name="w3">সার্চ করুন</string>
+    <string name="pp1">আপনার সকল পণ্য এখানে</string>
+    <string name="payment1">পরিমাণ</string>
+    <string name="payment2">টাকা দেয়ার পদ্ধতি বাছাই করুন</string>
+    <string name="payment3">বিলের রশিদ</string>
+    <string name="payment4">কিনুন</string>
+    <string name="finish">প্রকিয়াকরণ চলমান</string>
+    <string name="finish2">প্রকিয়াকরণ সম্পন্ন হয়েছে</string>
+
+</resources>

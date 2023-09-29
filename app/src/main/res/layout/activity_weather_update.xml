@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".WeatherUpdate"
+    android:orientation="vertical"
+    android:background="@color/wea"
+    android:padding="16dp">
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/shapebar">
+        <RelativeLayout
+            android:layout_width="112dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5sp"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/header_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="কৃষক"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/header_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="4dp"
+                android:text="বন্ধু"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/hm9"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="5sp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCity"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/w1"
+            android:inputType="textPersonName" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCountry"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/w2"
+            android:inputType="textPersonName" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGet"
+            android:onClick="getWeatherDetails"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape1"
+            android:textColor="@android:color/white"
+            android:text="@string/w3"
+            app:backgroundTint="@null" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/tvResult"
+                android:textColor="@color/purple_200"/>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
